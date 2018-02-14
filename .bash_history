@@ -41,3 +41,15 @@ npm run build:server && npm run build:client
 exit
 curl -i localhost:8080
 exit
+npm i --save-dev babel-core babel-cli babel-loader babel-preset-env babel-preset-react webpack
+npm i --save react react-dom react-router-dom
+npm i --save express cors
+npm i --save axios
+npm run build:prod
+exit
+npm run build:prod
+npm run build:prod
+exit
+npm run build:prod
+npm run build:prod
+exit
