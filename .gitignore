@@ -1,0 +1,6 @@
+.idea/
+.config/
+.npm/
+build/
+docker-compose.override.yml
+node_modules/

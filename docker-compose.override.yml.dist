@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web:
+    user: "node"
+    working_dir: /home/node
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./config/docker/web/.bash_history:/root/.bash_history
+      - ./:/home/node
+    expose:
+      - 8080
+    command: "npm run start:dev:client"
